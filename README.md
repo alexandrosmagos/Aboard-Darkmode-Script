@@ -11,7 +11,7 @@ A simple tampermonkey script that turns the site dark.
 
 ## Description
 
-This Tampermonkey script that changes the theme of the Aboard website that is using Bulma framework, to a dark theme. It changes the background color of the <body> to #222, background color of all elements with the class card to #333, all the text to white and a few more small selector and input elements.
+This Tampermonkey script changes the theme of the Aboard website (which is using Bulma framework), to a dark theme. It changes the background color of the <body> to #222, background color of all elements with the class card to #333, all the text to white and a few more small selector and input elements.
 It uses the CSS styles to change the color scheme and can be easily modified to fit the your custom needs.
 
 ## Getting Started
