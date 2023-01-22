@@ -1,0 +1,31 @@
+html, body {
+    background-color: #282b30;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.footer, .navbar-dropdown {
+    background-color: #282b30;
+}
+.card {
+    background-color: #333;
+    color: #fff;
+}
+* {
+    color: #fff !important;
+}
+.navbar, .notification {
+    background-color: #1e2124;
+}
+.box, .input, .vue-treeselect__control, .vue-treeselect__menu {
+    background-color: #424549;
+}
+.tag, .vue-treeselect__multi-value-item {
+    background-color: #36393e !important;
+}
+.is-light {
+    background-color: #3850b7 !important;
+}
+.vue-treeselect__option--highlight, .vue-treeselect__option--selected {
+    background: #36393e !important;
+}
