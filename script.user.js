@@ -34,7 +34,7 @@
             background-color: #424549;
         }
         .tag {
-            background-color: #424549 !important;
+            background-color: #36393e !important;
         }
         .is-light {
             background-color: #3850b7 !important;
