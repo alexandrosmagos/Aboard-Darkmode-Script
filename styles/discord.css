@@ -29,3 +29,6 @@ html, body {
 .vue-treeselect__option--highlight, .vue-treeselect__option--selected {
     background: #36393e !important;
 }
+.navbar-dropdown a.navbar-item:hover {
+    background-color: #3850b7;
+}

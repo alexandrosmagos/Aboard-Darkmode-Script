@@ -23,12 +23,18 @@ html, body {
 .tag, .vue-treeselect__multi-value-item {
     background-color: #F55050 !important;
 }
-.is-light {
-    background-color: #3850b7 !important;
+.button.is-link.is-light {
+    background-color: #f55050 !important;
 }
 .pagination-link.is-current, .button {
     background-color: #F55050 !important;
 }
 .vue-treeselect__option--highlight, .vue-treeselect__option--selected {
     background: #F55050 !important;
+}
+.navbar-dropdown a.navbar-item:hover {
+    background-color: #F55050 !important;
+}
+.pagination-link.is-current, .button {
+    background-color: #86a3b8 !important;
 }
