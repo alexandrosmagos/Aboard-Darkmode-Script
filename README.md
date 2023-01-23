@@ -3,9 +3,9 @@
 A simple tampermonkey script that turns the site dark.
 
 <img
-  src="/banner.jpg"
-  alt="White vs Dark"
-  title="White vs Dark"
+  src="/banner.gif"
+  alt="Theme Selection"
+  title="Theme Selection"
   style="display: inline-block; margin: 0 auto; max-width: 65%; ">
 
 
@@ -16,7 +16,7 @@ It uses the CSS styles to change the color scheme and can be easily modified to 
 
 ## Getting Started
 
-### Installing
+### Setting Up
   
 #### Step 1: ScriptManager
 * ![](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/firefox.png) [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/) 
@@ -28,9 +28,12 @@ It uses the CSS styles to change the color scheme and can be easily modified to 
 > ##### Note: After installation (which requires restarting your browser), you are now ready to install userscripts.
 
 #### Step 2: Install UserScript
+* [Install](https://github.com/alexandrosmagos/aboard_dark_themed/raw/main/script.user.js) *from github.com (recommended)*
 * [Install](https://greasyfork.org/scripts/458685-dark-theme-for-aboard/code/Dark%20Theme%20for%20Aboard.user.js) *from greasyfork.org*
-* [Install](https://github.com/alexandrosmagos/aboard_dark_themed/raw/main/script.user.js) *from github.com*
-  
+
+### Using
+
+#### Step 3: After installing the script, on the top right of the page, there should be color picker icon. Hovering over that, should reveal the available themes. Select your preferred one, and you're done!
   
 ## Contributing
 
@@ -48,7 +51,9 @@ Don't forget to give the project a star! Thanks again!
 
 
 ## Version History
-
+* 1.1
+    * Added a theme selector on the right side of the navbar.
+    * Added a new theme, and more to come soon!
 * 1.0
     * Initial Release
 
