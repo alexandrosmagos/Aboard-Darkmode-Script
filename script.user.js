@@ -6,8 +6,8 @@
 // @author      Alexandros Magos
 // @match       https://aboard.iee.ihu.gr/*
 // @grant       GM_getResourceURL
-// @resource    discordStyle http://localhost:3000/styles/discord.css
-// @resource    bubblegumStyle http://localhost:3000/styles/bubblegum.css
+// @resource    discordStyle https://raw.githubusercontent.com/alexandrosmagos/Aboard-Darkmode-Script/main/styles/discord.css
+// @resource    bubblegumStyle https://github.com/alexandrosmagos/Aboard-Darkmode-Script/blob/main/styles/bubblegum.css
 // ==/UserScript==
 
 (function () {
