@@ -7,7 +7,7 @@
 // @match       https://aboard.iee.ihu.gr/*
 // @grant       GM_getResourceURL
 // @resource    discordStyle https://raw.githubusercontent.com/alexandrosmagos/Aboard-Darkmode-Script/main/styles/discord.css
-// @resource    bubblegumStyle https://github.com/alexandrosmagos/Aboard-Darkmode-Script/blob/main/styles/bubblegum.css
+// @resource    bubblegumStyle https://raw.githubusercontent.com/alexandrosmagos/Aboard-Darkmode-Script/main/styles/bubblegum.css
 // ==/UserScript==
 
 (function () {
