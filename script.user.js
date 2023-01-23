@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Dark Theme for Aboard
 // @namespace   https://alexandrosmagos.com/
-// @version     1.0
+// @version     1.1
 // @description Changes website theme to a dark
 // @author      Alexandros Magos
 // @match       https://aboard.iee.ihu.gr/*
