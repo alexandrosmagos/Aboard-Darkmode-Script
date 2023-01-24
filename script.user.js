@@ -39,20 +39,9 @@
 		}
 	});
 
-	var discordOption = document.createElement("a");
-	discordOption.classList.add("navbar-item");
-	discordOption.innerText = "Discord";
-	themeDropdownMenu.appendChild(discordOption);
-
-	var originalOption = document.createElement("a");
-	originalOption.classList.add("navbar-item");
-	originalOption.innerText = "Original";
-	themeDropdownMenu.appendChild(originalOption);
-
-	var bubblegumOption = document.createElement("a");
-	bubblegumOption.classList.add("navbar-item");
-	bubblegumOption.innerText = "Bubblegum";
-	themeDropdownMenu.appendChild(bubblegumOption);
+    addTheme("Discord");
+    addTheme("Bubblegum");
+	addTheme("Original");
 
 	var themeDropdown = document.createElement("div");
 	themeDropdown.classList.add("navbar-item", "has-dropdown", "is-hoverable");
@@ -81,4 +70,13 @@
 		}
 	}
 	document.head.appendChild(style);
+
+    function addTheme(name) {
+		var newOption = document.createElement("a");
+		newOption.classList.add("navbar-item");
+		newOption.innerText = name;
+		themeDropdownMenu.appendChild(newOption);
+    }
+
+
 })();
