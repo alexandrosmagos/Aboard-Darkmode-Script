@@ -77,6 +77,4 @@
 		newOption.innerText = name;
 		themeDropdownMenu.appendChild(newOption);
     }
-
-
 })();
